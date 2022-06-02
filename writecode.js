@@ -1,9 +1,9 @@
-//1. Sum Zero=O(n2)
+1. Sum Zero  O(n2)
 
-   addToZero = [1, 2, 3, -2]
+   const addToZero = [1, 2, 3, -2]
 
    function zeroAdd(addToZero){
-    const addToZeroRwo = addToZero.map()
+    const addToZeroTwo = addToZero.map()
     for (let i = 0; i < addToZero.length; i++){
       }  for (let j = 0; j < addToZeroTwo.length; j++){
           sumVar = (addToZero[i] + addToZeroTwo[j])
@@ -16,17 +16,15 @@
 }
 }
 
-zeroAdd()
+2. Unique Characters O(1)
 
-//2. Unique Characters O(1)
-
-charString = ("Python")
+const charString = "Python"
 const charVar = ""
 
 function uniqueChar(charString){
  for (let i = 0; i < charString.length; i++){
      if (charVar.includes(charString[i]) === false) {
-        unit + charString[i]; 
+        charVar + charString[i]; 
         return true
      }  
      else {
@@ -35,11 +33,9 @@ function uniqueChar(charString){
  }
 }
 
-uniqueChar()
+3. Pangram Sentence  O(1)
 
-//3. Pangram Sentence  O(1)
-
-const pangramString = ("I like cats, but not mice!");
+const pangramString = "I like cats, but not mice!"
 
 function pangramCheck(pangramString) {
     let strArr = pangramString.toLowerCase();
@@ -54,9 +50,9 @@ function pangramCheck(pangramString) {
 }
 }
 
-//4. Longest Word
+4. Longest Word O(1)
 
-wordStr = ("I am done with Foundations")
+const wordStr = "I am done with Foundations"
 
 function find_longest_word(wordStr) {
     var strSplit = str.split(' ');
